@@ -3,5 +3,5 @@ def oxford_comma(array)
   array.pop
   out = array.join(", ")
   out <<(", and #{last_element}")
-  return array
+  return out
 end
