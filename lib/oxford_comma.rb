@@ -3,7 +3,7 @@ def oxford_comma(array)
   array.pop
   out = array.join(", ")
   if(array.size ==1)
-    out <<(", and #{last_element}")
+    out <<(" and #{last_element}")
   elsif(array.size ==0)
     out <<("#{last_element}")
   else
