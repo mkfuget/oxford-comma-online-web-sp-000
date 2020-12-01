@@ -4,7 +4,7 @@ def oxford_comma(array)
   out = array.join(", ")
   if(array.size ==1)
     out <<(", and #{last_element}")
-  elseif(array.size ==0)
+  elsif(array.size ==0)
     out <<("#{last_element}")
   else
     out <<(", and #{last_element}")
